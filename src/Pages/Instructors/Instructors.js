@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Instructors = () => {
     return (
@@ -20,10 +21,10 @@ const Instructors = () => {
                                     suscipit repudiandae obcaecati magni dolore neque, sint id. Quas molestiae
                                     asperiores
                                     nihil odio distinctio provident sit? Hic consequuntur vel numquam?</p>
-                                <a href="#"><i className="bi bi-twitter text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-linkedin text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-facebook text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-instagram text-white mx-1"></i></a>
+                                <NavLink to="#"><i className="bi bi-twitter text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-linkedin text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-facebook text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-instagram text-white mx-1"></i></NavLink>
                             </div>
                         </div>
                     </div>
@@ -38,10 +39,10 @@ const Instructors = () => {
                                     suscipit repudiandae obcaecati magni dolore neque, sint id. Quas molestiae
                                     asperiores
                                     nihil odio distinctio provident sit? Hic consequuntur vel numquam?</p>
-                                <a href="#"><i className="bi bi-twitter text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-linkedin text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-facebook text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-instagram text-white mx-1"></i></a>
+                                <NavLink to="#"><i className="bi bi-twitter text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-linkedin text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-facebook text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-instagram text-white mx-1"></i></NavLink>
                             </div>
                         </div>
                     </div>
@@ -56,10 +57,10 @@ const Instructors = () => {
                                     suscipit repudiandae obcaecati magni dolore neque, sint id. Quas molestiae
                                     asperiores
                                     nihil odio distinctio provident sit? Hic consequuntur vel numquam?</p>
-                                <a href="#"><i className="bi bi-twitter text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-linkedin text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-facebook text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-instagram text-white mx-1"></i></a>
+                                <NavLink to="#"><i className="bi bi-twitter text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-linkedin text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-facebook text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-instagram text-white mx-1"></i></NavLink>
                             </div>
                         </div>
                     </div>
@@ -74,10 +75,10 @@ const Instructors = () => {
                                     suscipit repudiandae obcaecati magni dolore neque, sint id. Quas molestiae
                                     asperiores
                                     nihil odio distinctio provident sit? Hic consequuntur vel numquam?</p>
-                                <a href="#"><i className="bi bi-twitter text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-linkedin text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-facebook text-white mx-1"></i></a>
-                                <a href="#"><i className="bi bi-instagram text-white mx-1"></i></a>
+                                <NavLink to="#"><i className="bi bi-twitter text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-linkedin text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-facebook text-white mx-1"></i></NavLink>
+                                <NavLink to="#"><i className="bi bi-instagram text-white mx-1"></i></NavLink>
                             </div>
                         </div>
                     </div>

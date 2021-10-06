@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { ReactComponent as LearnFundamentals } from '../../assets/images/learnFundamentals.svg'
 import { ReactComponent as LearnReact } from '../../assets/images/learnReact.svg'
 const Learn = () => {
@@ -17,8 +18,8 @@ const Learn = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore illo unde, quas
                                 illum ratione et. Sapiente, accusantium totam, quisquam dignissimos officiis, ducimus
                                 assumenda praesentium culpa nulla deserunt quos tenetur?</p>
-                            <a href="#" className="btn btn-white p-0">Read More <i
-                                className="bi bi-chevron-compact-down"></i></a>
+                            <NavLink to="#" className="btn btn-white p-0">Read More <i
+                                className="bi bi-chevron-compact-down"></i></NavLink>
                         </div>
                     </div>
                 </div>
@@ -37,8 +38,8 @@ const Learn = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore illo unde, quas
                                 illum ratione et. Sapiente, accusantium totam, quisquam dignissimos officiis, ducimus
                                 assumenda praesentium culpa nulla deserunt quos tenetur?</p>
-                            <a href="#" className="btn btn-dark p-0">Read More <i
-                                className="bi bi-chevron-compact-down"></i></a>
+                            <NavLink to="#" className="btn btn-dark p-0">Read More <i
+                                className="bi bi-chevron-compact-down"></i></NavLink>
                         </div>
                     </div>
                 </div>

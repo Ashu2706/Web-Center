@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const BoxCard = () => {
     return (
@@ -12,7 +13,7 @@ const BoxCard = () => {
                             <h4 className="card-title mb-3">Online</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                                 tempora ab commodi, unde aut tempore reiciendis modi.</p>
-                            <a href="#" className="btn btn-danger">Read More</a>
+                            <NavLink to="#"><button className="btn btn-danger">Read More</button></NavLink>
                         </div>
                     </div>
                 </div>
@@ -23,7 +24,7 @@ const BoxCard = () => {
                             <h4 className="card-title mb-3">In Person</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                                 tempora ab commodi, unde aut tempore reiciendis modi.</p>
-                            <a href="#" className="btn btn-danger">Read More</a>
+                            <NavLink to="#"><button className="btn btn-danger">Read More</button></NavLink>
                         </div>
                     </div>
                 </div>
@@ -34,7 +35,7 @@ const BoxCard = () => {
                             <h4 className="card-title mb-3">Hybrid</h4>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                                 tempora ab commodi, unde aut tempore reiciendis modi.</p>
-                            <a href="#" className="btn btn-danger">Read More</a>
+                            <NavLink to="#"><button className="btn btn-danger">Read More</button></NavLink>
                         </div>
                     </div>
                 </div>

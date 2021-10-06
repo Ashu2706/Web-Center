@@ -1,6 +1,6 @@
 import React from 'react'
 import mapboxgl from 'mapbox-gl';
-import { useEffect, useState } from 'react';
+import {useEffect} from 'react';
 const Contact = () => {
 
     mapboxgl.accessToken = 'pk.eyJ1IjoiYXNodTI4OTciLCJhIjoiY2t0bWs5bGM2MXZjNTJxbzZsMmt6ZnlnMyJ9.JM27Rt1kkD3eD3-9EHhVjA';

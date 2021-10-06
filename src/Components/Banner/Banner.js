@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ReactComponent as BannerImage } from '../../assets/images/banner/img1.svg'
+import ModalExample from '../Form/Form'
 const Banner = () => {
+    const [formModal, setFormModal] = useState(false);
+
+    const toggle = () => setFormModal(!formModal);
+
     return (
         <section className="bg-dark text-light p-3 text-center text-sm-start banner">
             <div className="container d-sm-flex align-items-center justify-content-between">
@@ -10,14 +15,20 @@ const Banner = () => {
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, quibusdam. Totam, asperiores?
                         Consequuntur error sequi accusantium quasi, amet delectus perferendis.
                     </p>
-                    <button className="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#enroll-now">Enroll
+                    <button className="btn btn-danger btn-lg" onClick={toggle}>Enroll
                         Now</button>
                 </div>
                 <div className="banner-img my-3">
                     <BannerImage className="img-fluid d-none d-sm-block"></BannerImage>
-                    
+
                 </div>
             </div>
+            <ModalExample
+                        buttonLabel="Enroll Now"
+                        className="enroll-now"
+                        formModal = {formModal}
+                        toggle = {toggle}
+                    />
         </section>
     )
 }
